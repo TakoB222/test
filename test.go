@@ -1,7 +1,5 @@
 package test
 
-import "fmt"
-
-func Hi(){
-	fmt.Println("Hello modules")
+func Hi(str string) string{
+	return str
 }
